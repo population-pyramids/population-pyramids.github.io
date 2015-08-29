@@ -1,0 +1,109 @@
+body {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+svg {
+    font-family: Arial, sans-serif;
+}
+
+.popover-inner {
+    width: 100%;
+}
+
+path.outline-male {
+    fill: none;
+    stroke: #1a316b;
+    stroke-width: 2;
+}
+path.outline-female {
+     fill: none;
+     stroke: #7f1b55;
+     stroke-width: 2;
+ }
+
+.male {
+    fill: #97a8d2;
+    stroke: #97a8d2;
+}
+
+.female {
+    fill: #e19ac4;
+    stroke: #e19ac4;
+}
+
+line.axis {
+    stroke-width: 1;
+    stroke: lightgray;
+}
+
+line.tick {
+    stroke-width: 1;
+    stroke: lightgray;
+}
+
+.centerHeader {
+    font-size: 14px;
+    font-weight: bold;
+    stroke: none;
+    fill: gray;
+}
+
+.panelHeader {
+    font-size: 14px;
+    stroke: none;
+    fill: gray;
+}
+
+.panelHeader-male {
+    font-size: 16px;
+    stroke: none;
+    fill: #1a316b;
+    font-weight: bold;
+}
+
+.panelHeader-female {
+    font-size: 16px;
+    stroke: none;
+    fill: #7f1b55;
+    font-weight: bold;
+}
+
+.panelHeader-small-male {
+    font-size: 12px;
+    stroke: none;
+    fill: #1a316b;
+}
+
+.panelHeader-small-female {
+    font-size: 12px;
+    stroke: none;
+    fill: #7f1b55;
+}
+
+.tickLabel {
+    fill: gray;
+    font-size: 14px;
+    stroke: none;
+}
+
+.header {
+    text-align: center;
+}
+
+#footer {
+    color: #777;
+}
+
+#footer a {
+    color: black;
+}
+
+input.search-query {
+    margin-top: 7px;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 27px;
+    width: 320px;
+    height: 24px;
+}
